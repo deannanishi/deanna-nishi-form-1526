@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", "Helvetica", sans-serif;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+.box {
+    margin: 0 0 1.5rem 0;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+}
+
+main {
+    margin: 2rem;
+}
+
+legend {
+    font-size: 1.5rem;
+    padding: 12px 20px 12px 20px;
+    background-color: #ffff;
+    border: 1px solid #ddd;
+}
+
+input[type="text"] {
+    font-family: "Arial", "Helvetica", sans-serif;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+
+form {
+    display: block;
+    padding: 15px 15px 55px 15px;
+    max-width: 50rem;
+    margin: auto;
+    align-items: center;
+}
+
+input[type=button] {
+    background-color: #6495ed;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    border: 1px solid #ddd;
+    clear: both;
+}
+
+
+/*Tablet*/
+
+@media (min-width: 25rem) {
+    body {
+        font-size: 1rem;
+    }
+
+    #left {
+        float: left;
+        width: 48%;
+    }
+
+    #right {
+        float: right;
+        width: 48%;
+    }
+
+    textarea {
+        clear: both;
+    }
+
+    input[type=button] {
+        width: auto;
+    }
+
+    legend {
+        font-size: 2rem;
+    }
+}
+
+/*Desktop*/
+@media (min-width: 40rem) {}
